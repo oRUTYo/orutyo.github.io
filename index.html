@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игра в пары</title>
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./main.js"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <button class="button-reload">ЗАНОВО</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <ul class="cards-list">
+            </ul>
+            <div class="start-tab start-tab--active">
+                <h2 class="tab-heading">ИГРА В ПАРЫ</h2>
+                <span class="tab-descr">Введите количество карт:</span>
+                <input class="tab-input" type="number" min="4" max="32" step="2" value="16">
+                <button class="tab-button">ПОДТВЕРДИТЬ</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
